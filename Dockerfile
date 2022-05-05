@@ -7,7 +7,6 @@ RUN rustup toolchain add nightly
 RUN rustup default nightly
 RUN cargo +nightly install -f cargo-fuzz
 
-RUN cargo build
 RUN cargo +nightly fuzz build
 
 FROM ubuntu:20.04
