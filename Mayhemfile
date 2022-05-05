@@ -1,0 +1,13 @@
+project: wgibbs15/elfcat-mayhem
+
+# Target name (should be unique within the project)
+target: elfcat-fuzz
+
+image: ghcr.io/wgibbs15/elfcat-fuzz:latest
+
+# List of commands used to test the target
+cmds:
+
+    # Command used to start the target, "@@" is the input file
+    # (when "@@" is omitted Mayhem defaults to stdin inputs)
+    - cmd: /elfcat-fuzz
