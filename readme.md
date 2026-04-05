@@ -52,15 +52,11 @@ elfcat - ELF visualizer. Generates HTML files from ELF binaries.
        $ elfcat hello_world
        $ xdg-open hello_world.html
 
-3. Can I contribute?
-
-   Of course!
-
-4. License?
+3. License?
 
    Zlib.
 
-5. Upcoming features?
+4. Upcoming features?
 
    * Better text renderer to fix bad performance when opening big files
 
@@ -72,7 +68,7 @@ elfcat - ELF visualizer. Generates HTML files from ELF binaries.
 
    * Highlight bytes in ASCII column
 
-6. Addendum
+5. Addendum
 
    * [List of forks](https://github.com/ruslashev/elfcat/wiki/Forks)
 
